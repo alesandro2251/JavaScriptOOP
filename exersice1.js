@@ -27,7 +27,7 @@ class Shape {
   }
 
   calcPerimeter() {
-    console.log(this.sides * this.sideLength);
+    console.log("Perimeter is " + this.sides * this.sideLength);
   }
 }
 
@@ -36,3 +36,25 @@ square.calcPerimeter();
 
 triangle = new Shape("triangle", 3, 3);
 triangle.calcPerimeter();
+
+// Next we'd like you to create a Square class that inherits from Shape,
+// and adds a calcArea() method that calculates the square's area.
+// Also set up the constructor so that the name property of Square object instances is
+// automatically set to square, and the sides property is automatically set to 4.
+// When invoking the constructor, you should therefore just need to provide the sideLength property.
+
+// Create an instance of the Square class called square with appropriate property values,
+// and call its calcPerimeter() and calcArea() methods to show that it works OK.
+
+class Square extends Shape {
+  constructor(sideLength) {
+    super("square", 4, sideLength);
+  }
+
+  calcArea() {
+    console.log("Area is " + this.sideLength * this.sideLength);
+  }
+}
+
+test1 = new Square(5);
+test1.calcArea();
