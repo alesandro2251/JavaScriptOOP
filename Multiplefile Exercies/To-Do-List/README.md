@@ -43,18 +43,3 @@ The Section class should also have four methods:
   {details of the second task}
   ...
   {details of the n task}"
-
-Tests :
-
-task = new Task("Make bed", "27/05/2020")
-task.change_taskName("Go to University")
-task.change_due_date("28.05.2020")
-task.add_comment("Don't forget laptop")
-task.edit_comment(0, "Don't forget laptop and notebook")
-task.details()
-section = new Section("Daily tasks")
-section.add_task(task)
-second_task = new Task("Make bed","27/05/2020")
-section.add_task(second_task)
-section.clean_section()
-section.view_section()
