@@ -31,23 +31,23 @@ const student = {
 # 5. Operators in JS
 ## Arithmetick
 
-+	Addition
--	Subtraction
-*	Multiplication
-**	Exponentiation (ES2016)
-/	Division
-%	Modulus (Division Remainder)
-++	Increment
---	Decrement
+- + 	Addition
+- -	    Subtraction
+- *	    Multiplication
+- **	Exponentiation (ES2016)
+- /	    Division
+- %	     Modulus (Division Remainder)
+- ++	Increment
+- --	Decrement
 ## Assignment
 
-=	   x = y	  x = y
-+=	 x += y	  x = x + y
--=	 x -= y 	x = x - y
-*=	 x *= y	  x = x * y
-/=	 x /= y	  x = x / y
-%=	 x %= y	  x = x % y
-**=	 x **= y	x = x ** y
+ - =	   x = y	  x = y
+- +=	 x += y	  x = x + y
+- -=	 x -= y 	x = x - y
+- *=	 x *= y	  x = x * y
+- /=	 x /= y	  x = x / y
+- %=	 x %= y	  x = x % y
+- **=	 x **= y	x = x ** y
 ## Comparison
 
 ==	equal to
