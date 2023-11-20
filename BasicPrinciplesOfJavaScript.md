@@ -31,9 +31,9 @@ const student = {
 # 5. Operators in JS
 ## Arithmetick
 
-- + Addition
-- -	 Subtraction
-- *	Multiplication
++ Addition
+- Subtraction
+* Multiplication
 - **	Exponentiation (ES2016)
 - /	    Division
 - %	     Modulus (Division Remainder)
@@ -41,7 +41,7 @@ const student = {
 - --	Decrement
 ## Assignment
 
- - =	   x = y	  x = y
+ - =	  x = y	  x = y
 - +=	 x += y	  x = x + y
 - -=	 x -= y 	x = x - y
 - *=	 x *= y	  x = x * y
