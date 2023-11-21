@@ -42,6 +42,9 @@ Polymorphism is the ability of a function, method, or object to take on multiple
 - **`constructor()`**: A special method for creating and initializing objects created within a class.
 - **`new`**: A keyword used to instantiate a new object from a class.
 - **`super()`**: A function used to call corresponding methods of super class, especially when working in the context of inheritance. It is crucial in the context of constructors of derived classes.
+- **`JSON.parse()`**: a function that convert from string to object.
+- **`appendChild()`**: a function that attach one DOM node to another.
+
 
 ## Exceptions in JavaScript:
 
